@@ -18,7 +18,7 @@ node {
         ansiblePlaybook credentialsId: 'ssh-credentials', installation: 'ansible-installation', playbook: 'deploy.yaml'
  }
         
- 
+    }
 }       
         
     }    
